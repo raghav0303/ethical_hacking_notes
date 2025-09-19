@@ -1,0 +1,2 @@
+- https://medium.com/@vineeth.dj/my-oscp-exam-experience-the-most-intense-48-hours-of-my-life-f44035377af8
+- https://tun4hunt.medium.com/the-worlds-first-oscp-exam-review-317950db3267

@@ -1,0 +1,1 @@
+- https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide

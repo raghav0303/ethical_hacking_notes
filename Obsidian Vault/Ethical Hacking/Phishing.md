@@ -1,0 +1,1 @@
+- Phishing is done using social engineering toolkit(setoolkit) terminal tool in kali linux

