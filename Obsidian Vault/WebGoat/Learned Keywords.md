@@ -1,0 +1,3 @@
+- httpd server
+- daemon, daemon process
+- web access logs
